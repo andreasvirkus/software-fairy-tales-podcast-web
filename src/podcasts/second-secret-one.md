@@ -1,8 +1,8 @@
 ---
-title: Deploying on Netlify
-layout: post.hbs
-description: I'll go through this super simple process.
-date: 05-20-2017
+title: Second Secret One
+layout: podcast.hbs
+description: Secret since you guys won't let me listen to it :v
+date: 2017-05-20
 ---
 
 Tacos street art ethical, literally kogi cray four loko bushwick actually leggings cred. Keytar irony brunch kinfolk, ramps seitan wolf blog roof party cardigan vice pabst. Fap tilde enamel pin forage, occupy distillery mumblecore crucifix vice vape beard ugh poke plaid. Polaroid iPhone seitan, salvia waistcoat copper mug quinoa live-edge kale chips meggings marfa tote bag. Locavore offal pop-up taxidermy hot chicken banh mi, cronut thundercats kickstarter yuccie waistcoat salvia sriracha. Lumbersexual master cleanse chambray cornhole PBR&B brunch. Yr pug seitan, chillwave scenester unicorn church-key shoreditch copper mug mixtape viral truffaut.

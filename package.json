@@ -42,7 +42,11 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sitemap": "^1.2.0",
     "moment": "^2.18.1",
+    "podcast": "^0.2.2",
     "postcss-cli": "^4.0.0",
     "uglify-js": "^3.0.10"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0"
   }
 }

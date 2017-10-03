@@ -39,7 +39,7 @@ metalsmith(__dirname)
     .use(drafts())
     .use(collections({
         posts: {
-            pattern: 'posts/*.md',
+            pattern: 'podcasts/*.md',
             sortBy: 'date',
             reverse: true
         },
@@ -57,7 +57,7 @@ metalsmith(__dirname)
         partials: 'layouts/partials'
     }))
     .use(sitemap({
-        hostname: "https://andreasvirkus.me"
+        hostname: "https://pottycast.netlify.com"
     }))
     .build(function (err) {
         if (err) throw err;
