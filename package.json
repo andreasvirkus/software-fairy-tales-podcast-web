@@ -15,18 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreasvirkus/metalsmith-boilerplate.git"
+    "url": "git+https://github.com/andreasvirkus/software-fairy-tales-podcast-web.git"
   },
   "keywords": [
     "metalsmith",
-    "base",
-    "template",
-    "netlify"
+    "podcast"
   ],
   "author": "https://github.com/andreasvirkus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreasvirkus/metalsmith-boilerplate/issues"
+    "url": "https://github.com/andreasvirkus/software-fairy-tales-podcast-web/issues"
   },
   "dependencies": {
     "autoprefixer": "^7.1.1",
@@ -42,7 +40,6 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sitemap": "^1.2.0",
     "moment": "^2.18.1",
-    "podcast": "^0.2.2",
     "postcss-cli": "^4.0.0",
     "uglify-js": "^3.0.10"
   },
