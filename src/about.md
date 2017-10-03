@@ -5,8 +5,12 @@ layout: about.hbs
 menu-order: 2
 ---
 
-# About me
+# What's all this?
 
-## Zapping good looks ⚡
+A short description mayhaps.
 
-And other silly information.
+## Zapping good talks ⚡
+
+And other information.
+
+How to listen, where to sub, etc.

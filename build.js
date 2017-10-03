@@ -17,20 +17,20 @@ Handlebars.registerHelper('is', function (value, test, options) {
 });
 
 Handlebars.registerHelper('date', function (date) {
-    return moment(date, "MM-DD-YYYY").format('Do MMM \'YY');
+    return moment(date, 'MM-DD-YYYY').format('Do MMM \'YY');
 });
 
 metalsmith(__dirname)
     .metadata({
         site: {
-            name: 'My site',
-            description: "My super sweet Metalsmith site on Netlify.",
-            generatorname: "Metalsmith",
-            generatorurl: "http://metalsmith.io/",
-            generatortitle: "Check out Metalsmith!",
-            hostname: "Netlify",
-            hosturl: "https://netlify.com/",
-            hosttitle: "Learn more about Netlify"
+            name: 'Hea Tarkvara ja Teised Muinasjutud',
+            description: 'Tore podcast veebile südamelähedastel teemadel.',
+            generatorname: 'Metalsmith',
+            generatorurl: 'http://metalsmith.io/',
+            generatortitle: 'Check out Metalsmith!',
+            hostname: 'Netlify',
+            hosturl: 'https://netlify.com/',
+            hosttitle: 'Learn more about Netlify'
         }
     })
     .source('./src')
@@ -57,7 +57,7 @@ metalsmith(__dirname)
         partials: 'layouts/partials'
     }))
     .use(sitemap({
-        hostname: "https://pottycast.netlify.com"
+        hostname: 'https://dowdy-elf.netlify.com'
     }))
     .build(function (err) {
         if (err) throw err;

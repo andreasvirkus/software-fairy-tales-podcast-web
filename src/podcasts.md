@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Episodes
 description: A collection of my fantastic thoughts.
 layout: blog.hbs
 menu-order: 4
