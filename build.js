@@ -5,8 +5,16 @@ const collections = require('metalsmith-collections');
 const permalinks = require('metalsmith-permalinks');
 const layouts = require('metalsmith-layouts');
 const sitemap = require('metalsmith-sitemap');
+const podcast = require('metalsmith-podcast');
 const Handlebars = require('handlebars');
 const moment = require('moment');
+
+// Date for when the podcast feed was last updated
+const date = new Date();
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const podcastFeedDate = `${month}/${day}/${year}`;
 
 Handlebars.registerHelper('is', function (value, test, options) {
     if (value === test) {
@@ -55,6 +63,21 @@ metalsmith(__dirname)
         directory: 'layouts',
         default: 'default.hbs',
         partials: 'layouts/partials'
+    }))
+    .use(podcast({
+        title: 'Hea Tarkvara ja Teised Muinasjutud',
+        description: 'A podcast about everything web and dev related.',
+        feed_url: '/podcast.xml',
+        site_url: 'https://dowdy-elf.netlify.com',
+        image_url: '/assets/img/podcast-image.jpg',
+        author: 'Nele Sergejeva, Karmen Kukk, Ando Roots, Jaan Pullerits',
+        managingEditor: 'Ando Roots',
+        webMaster: 'Andreas Virkus',
+        language: 'EE-ET',
+        categories: ['web', 'dev'],
+        pattern: 'podcasts/*/*.html',
+        pubDate: podcastFeedDate,
+        ttl: 1
     }))
     .use(sitemap({
         hostname: 'https://dowdy-elf.netlify.com'

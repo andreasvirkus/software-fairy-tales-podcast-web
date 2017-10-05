@@ -1,7 +1,7 @@
 {
-  "name": "metalsmith-netlify-boilerplate",
+  "name": "podcast-web",
   "version": "1.0.0",
-  "description": "A setup to get you going on Netlify with a Metalsmith static site.",
+  "description": "The website for a podcast about everything web and dev related.",
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -38,6 +38,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-navigation": "^0.2.9",
     "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-podcast": "^0.0.3",
     "metalsmith-sitemap": "^1.2.0",
     "moment": "^2.18.1",
     "postcss-cli": "^4.0.0",

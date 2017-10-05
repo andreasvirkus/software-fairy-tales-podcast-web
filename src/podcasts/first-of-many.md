@@ -3,6 +3,10 @@ title: First of Many
 layout: podcast.hbs
 description: The very first podcast
 date: 2017-09-13
+author: Peter Parker
+url: /absolute/url/to/episode-1
+duration: 280
+categories: ['developer', 'early days', 'introduction']
 ---
 
 Tacos street art ethical, literally kogi cray four loko bushwick actually leggings cred. Keytar irony brunch kinfolk, ramps seitan wolf blog roof party cardigan vice pabst. Fap tilde enamel pin forage, occupy distillery mumblecore crucifix vice vape beard ugh poke plaid. Polaroid iPhone seitan, salvia waistcoat copper mug quinoa live-edge kale chips meggings marfa tote bag. Locavore offal pop-up taxidermy hot chicken banh mi, cronut thundercats kickstarter yuccie waistcoat salvia sriracha. Lumbersexual master cleanse chambray cornhole PBR&B brunch. Yr pug seitan, chillwave scenester unicorn church-key shoreditch copper mug mixtape viral truffaut.
