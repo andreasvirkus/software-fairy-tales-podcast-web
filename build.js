@@ -67,9 +67,9 @@ metalsmith(__dirname)
     .use(podcast({
         title: 'Hea Tarkvara ja Teised Muinasjutud',
         description: 'A podcast about everything web and dev related.',
-        feed_url: '/podcast.xml',
-        site_url: 'https://dowdy-elf.netlify.com',
-        image_url: '/assets/img/podcast-image.jpg',
+        feedUrl: 'https://dowdy-elf.netlify.com/podcast.xml',
+        siteUrl: 'https://dowdy-elf.netlify.com',
+        imageUrl: 'https://dowdy-elf.netlify.com/assets/img/podcast-image.jpg',
         author: 'Nele Sergejeva, Karmen Kukk, Ando Roots, Jaan Pullerits',
         managingEditor: 'Ando Roots',
         webMaster: 'Andreas Virkus',
