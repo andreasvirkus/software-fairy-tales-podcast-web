@@ -2,6 +2,10 @@
 
 A static website for a web-related podcast
 
+## Roadmap:
+
+- Inline audio player to play podcasts
+
 ## Development:
 
 - Install dependencies: `npm install`
