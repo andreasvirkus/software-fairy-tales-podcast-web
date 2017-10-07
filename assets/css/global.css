@@ -107,6 +107,7 @@ main li ul {
         width: auto;
         min-height: 60vh;
         transform: translateY(-2.5em);
+        padding: 1em 0 0;
     }
     main p {
         font-size: 1.2em;

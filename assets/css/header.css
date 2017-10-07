@@ -1,8 +1,14 @@
-header {
+    header {
     text-align: center;
 }
 
 header h2 {
     font-size: 4rem;
     border: 5px solid;
+}
+
+@media screen and (max-width: 45em) {
+    header h2 {
+        font-size: 2em;
+    }
 }

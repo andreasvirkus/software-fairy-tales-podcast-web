@@ -77,7 +77,7 @@ metalsmith(__dirname)
         categories: ['web', 'dev'],
         pattern: 'podcasts/*/*.html',
         pubDate: podcastFeedDate,
-        ttl: 1
+        ttl: 5
     }))
     .use(sitemap({
         hostname: 'https://dowdy-elf.netlify.com'
